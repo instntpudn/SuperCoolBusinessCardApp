@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is a lousy splash page for a super cool business card app"
+        android:text="CRAP"
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.24" />
