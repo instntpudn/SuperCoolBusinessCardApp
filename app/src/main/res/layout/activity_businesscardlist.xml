@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@mipmap/appbackground">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Business Card list page"
-        android:id="@+id/textView3"
-        android:layout_gravity="center_horizontal" />
-</LinearLayout>
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@mipmap/searchbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="368dp"
+        android:layout_marginBottom="562dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="85dp"
+        android:layout_height="80dp"
+        android:id="@+id/button"
+        android:layout_marginBottom="16dp"
+        android:background="@mipmap/camerabutton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
