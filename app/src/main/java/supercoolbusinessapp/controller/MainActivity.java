@@ -1,4 +1,4 @@
-package supercoolbusinessapp.view;
+package supercoolbusinessapp.controller;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
