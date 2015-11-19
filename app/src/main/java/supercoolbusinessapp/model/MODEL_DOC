@@ -1,0 +1,5 @@
+Models get the data we need to put into the view
+put java classes here that
+
+- access a web api
+- access a database

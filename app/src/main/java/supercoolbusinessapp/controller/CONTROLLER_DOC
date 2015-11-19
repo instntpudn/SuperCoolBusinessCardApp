@@ -1,0 +1,7 @@
+Controller is the portion of code that gets data from the model and uses it to manipulate the view.
+ie. our layouts
+
+Activity classes go here
+ ie.
+ - MainActivity
+ - CameraActivity
