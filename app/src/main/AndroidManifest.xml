@@ -2,7 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="sjcnymobile.view" >
 
-    <uses-feature android:name=""></uses-feature>
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true"/>
+
 
     <application
         android:allowBackup="true"
