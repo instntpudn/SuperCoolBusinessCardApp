@@ -2,12 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#7acc8a">
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="#33678a">
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -22,7 +24,9 @@
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
             android:minHeight="160dp"
-            android:nestedScrollingEnabled="true" /></LinearLayout>
+            android:nestedScrollingEnabled="true"
+            android:baselineAlignBottom="true"
+            android:backgroundTint="#7acc8a" /></LinearLayout>
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -34,7 +38,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Business Name"
-           />
+            android:background="#7acc8a"
+            android:autoText="false" />
 
         <EditText
             android:layout_width="match_parent"
@@ -49,10 +54,11 @@
         android:orientation="vertical">
 
             <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Name"
-             />
+                android:background="#7acc8a"
+                android:id="@+id/" />
 
         <EditText
                android:layout_width="match_parent"
@@ -69,10 +75,11 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Address"
-             />
+            android:id="@+id/"
+            android:background="#7acc8a" />
 
         <EditText
             android:layout_width="match_parent"
@@ -89,10 +96,10 @@
         android:orientation="vertical">
 
             <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Telephone"
-             />
+                android:background="#7acc8a" />
 
         <EditText
             android:layout_width="match_parent"
@@ -110,10 +117,10 @@
 
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Description"
-            />
+            android:background="#7acc8a" />
 
         <EditText
             android:layout_width="match_parent"
@@ -133,10 +140,10 @@
 
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Email"
-            />
+            android:background="#7acc8a" />
 
         <EditText
             android:layout_width="match_parent"
