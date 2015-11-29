@@ -24,6 +24,11 @@
             android:name="supercoolbusinessapp.controller.BusinessCardList"
             android:label="@string/title_activity_business_card_list" >
         </activity>
+        <activity
+            android:name="supercoolbusinessapp.controller.CameraActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Take Picture" >
+        </activity>
     </application>
 
 </manifest>
