@@ -1,1 +1,2 @@
 Welcome test file to upload to GitHub... had to redo
+11/30 - trying to update to git using android v 2.0
