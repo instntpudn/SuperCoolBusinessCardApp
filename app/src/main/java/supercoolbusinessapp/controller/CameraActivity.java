@@ -30,6 +30,7 @@ public class CameraActivity extends AppCompatActivity {
     }
 
     void takepicture() {
+        //take a pic 12/1
         Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
         startActivityForResult(intent, 0);
     }
