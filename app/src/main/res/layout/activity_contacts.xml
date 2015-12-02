@@ -1,18 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7acc8a">
 
-    <FrameLayout
+    <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#33678a">
 
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:minHeight="160dp">
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
             android:id="@+id/bcimage"
             android:layout_gravity="center_horizontal|top"
-            android:contentDescription="BC image" />
+            android:contentDescription="BC image"
+            android:background="@mipmap/ic_launcher"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:minHeight="160dp"
+            android:nestedScrollingEnabled="true"
+            android:baselineAlignBottom="true"
+            android:backgroundTint="#7acc8a" /></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Business Name"
+            android:background="#7acc8a"
+            android:autoText="false" />
 
         <EditText
             android:layout_width="match_parent"
@@ -20,46 +47,106 @@
             android:id="@+id/businessname"
             android:layout_gravity="left|top"
             android:hint="Business Name"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+                android:background="#7acc8a"
+                android:id="@+id/" />
 
         <EditText
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:inputType="textPersonName"
-           android:text="Name"
-           android:ems="10"
-           android:id="@+id/Name"
-           android:layout_gravity="center"
-           android:hint="Name"/>
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:inputType="textPersonName"
+                android:ems="10"
+               android:id="@+id/Name"
+               android:layout_gravity="left|center_vertical"
+               android:hint="Name"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:id="@+id/"
+            android:background="#7acc8a" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPostalAddress"
             android:ems="10"
             android:id="@+id/address"
             android:layout_gravity="right|center_vertical"
             android:hint="Address"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telephone"
+                android:background="#7acc8a" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="phone"
             android:ems="10"
             android:id="@+id/phone"
             android:layout_gravity="center_horizontal|bottom"
             android:hint="Telephone Number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:background="#7acc8a" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textMultiLine"
             android:ems="10"
             android:id="@+id/description"
-            android:layout_gravity="center"
+            android:layout_gravity="left|top"
             android:hint="Description"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:background="#7acc8a" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
             android:ems="10"
@@ -67,5 +154,7 @@
             android:layout_gravity="center"
             android:hint="Email Address"/>
 
-    </FrameLayout>
+
+    </LinearLayout>
 </LinearLayout>
+    </LinearLayout>

@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import sjcnymobile.supercoolbusinesscardapp.R;
+import sjcnymobile.view.R;
 
 /**
  * Created by Anthony on 11/15/2015.
