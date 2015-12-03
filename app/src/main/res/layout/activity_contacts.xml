@@ -58,14 +58,14 @@
             android:layout_height="wrap_content"
             android:text="Name"
                 android:background="#7acc8a"
-                android:id="@+id/" />
+                android:id="@+id/txtname" />
 
         <EditText
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:inputType="textPersonName"
                 android:ems="10"
-               android:id="@+id/Name"
+               android:id="@+id/personsName"
                android:layout_gravity="left|center_vertical"
                android:hint="Name"/>
     </LinearLayout>
@@ -78,7 +78,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Address"
-            android:id="@+id/"
+            android:id="@+id/txtaddress"
             android:background="#7acc8a" />
 
         <EditText
