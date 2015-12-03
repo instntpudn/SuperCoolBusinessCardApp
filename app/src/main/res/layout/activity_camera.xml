@@ -4,19 +4,74 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="fill_parent"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Take Photo"/>
+        android:layout_alignTop="@+id/txtdescription"
+        android:layout_alignParentEnd="true">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
 
-    <Button
-        android:id="@+id/button_camera"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take Pic"
+                android:id="@+id/cmdTakePic"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true" />
 
-    <ImageView
-        android:id="@+id/image_camera"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
 
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post Picture for Evaluation ----->"
+                android:id="@+id/cmdPostPic"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:visibility="gone" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="File Name:"
+                android:id="@+id/txtdescription"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignBottom="@+id/cmdTakePic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:id="@+id/imageView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/textView" />
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
