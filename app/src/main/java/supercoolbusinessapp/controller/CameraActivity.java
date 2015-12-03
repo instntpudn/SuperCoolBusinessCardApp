@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import sjcnymobile.view.R;
+import sjcnymobile.supercoolbusinesscardapp.R;
 
 /**
  * Created by AnthonyK on 11/29/2015.
